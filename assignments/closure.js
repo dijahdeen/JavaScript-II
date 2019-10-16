@@ -4,6 +4,19 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
+function hairtype(hairtypeName) {
+  const haircolor = 'brown';
+  const haircolor2 = 'black';
+
+  function hairStyles(HairStylesName) {
+    const type1 = 'box braids'
+    const type2 = 'wigs'
+    console.log(`${hairtypeName} is the most common with black girls whether the hair color is ${haircolor} or ${haircolor2} and most of them tent to prefer ${type1} or ${type2} when styling.`);
+
+  }// this closes the capital
+  hairStyles('curly');
+} //this closes the hairtype 
+hairtype('coarse hair');
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
